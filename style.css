@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.logo {
+    align-items: flex-start;
+    padding: 25px; 
+}
+
+.top {
+    height: 50vh;
+}
+
+.bottom {
+    background: #333;
+    height: 50vh;
+}
