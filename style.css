@@ -59,4 +59,15 @@ a {
     overflow: auto;
 }
 
+#main-footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #192235;
+    color: #fff;
+    height: 70px;
+    padding: 20px;
+    align-items: center;
+}
+
 
