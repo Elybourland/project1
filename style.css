@@ -45,12 +45,17 @@ a {
     align-items: flex-start; 
 }
 
-h1 .logo :hover {
-    cursor: pointer;
+.logo span {
+    margin-right: 10px;
 }
 
 .top {
+    display: flex;
     height: 50vh;
+}
+
+.top img {
+    width: 100%;
 }
 
 .bottom {
