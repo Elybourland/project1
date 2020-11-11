@@ -26,6 +26,7 @@ a {
     padding: 0 30px;
     height: 70px;
     opacity: 0.8;
+    z-index: 1;
 }
 
 #navbar ul {
@@ -52,11 +53,45 @@ a {
     margin-right: 10px;
 }
 
-#bg-image img {
+.main-header {
+    background: url('img/street.jfif') no-repeat center center/cover;
+    position: relative;
+    height: 100vh;
+    /* color: #D01A43; */
+    color: #fff;
+}
+
+.main-header .content {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.main-header .content h1 {
+    font-size: 100px;
+}
+
+.main-header .content p {
+    font-size: 30px;
+    max-width: 600px;
+    margin: 20px 0 30px;
+}
+
+.main-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    /* object-fit: cover; */
-    overflow: auto;
+    height: 100%;
+}
+
+.hero * {
+    z-index: 10;
 }
 
 #main-footer {
